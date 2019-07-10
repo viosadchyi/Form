@@ -16,10 +16,11 @@ function saySmth(event) {
     } else {
     alert ('Success!');
     }
+    var user = {
+        firstName: firstName,
+        lastName: lastName,
+        email: email
+    };
+    console.log (user);
+    
 } 
-var user1 = {
-    firstName: firstName,
-    lastName: lastName,
-    email: email
-};
-console.log (user1);
